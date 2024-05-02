@@ -1,0 +1,32 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.title {
+  color: white;
+  flex: 1;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+
+  flex: 1;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: white;
+  gap: 10px;
+  font-size: 18px;
+}

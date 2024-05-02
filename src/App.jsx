@@ -1,34 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
+import Nav from './components/Nav'
+import Footer from "./components/Footer";
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Contact from "./pages/Contact";
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <BrowserRouter>
+    
+      <Nav></Nav>
+      <h1>HHHH</h1>
+      <Routes>
+        //Route-komponenten bestämmer vilken Route som ska visas baserat på vilken URL användaren befinner sig på. Används för att bygga navigationsstrukturen för single-page application (SPA). Varje Route-komponent inuti Routes definierar sökväg (path) och den komponent (element) som ska renderas när den sökvägen besöks.
+          <Route index path="/" element={<Home></Home>} /> 
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Contact" element={<Contact />} />
+      </Routes>
+      <Footer></Footer>
+    </BrowserRouter>
+
   )
 }
 
