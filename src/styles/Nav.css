@@ -1,14 +1,23 @@
 .header {
   width: 100vw;
   height: 80px;
-  background-color: black;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
+.theme-light{
+  background-color:aliceblue;
+  color:black;
+}
+.theme-dark{
+  background-color:black;
+  color:aliceblue
+}
+
 .title {
-  color: white;
+ 
   flex: 1;
 
   font-size: 24px;

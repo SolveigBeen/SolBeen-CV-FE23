@@ -1,5 +1,6 @@
 import '../styles/Nav.css'
 import {Link} from 'react-router-dom'
+import ThemeToggler from './ThemeToggler'
 
 const Nav = () => {
   return (
@@ -19,6 +20,7 @@ const Nav = () => {
             <li className="navitem">Contact</li>
           </Link>
         </ul>
+        <ThemeToggler></ThemeToggler>
       </nav>
     </header>
   )
