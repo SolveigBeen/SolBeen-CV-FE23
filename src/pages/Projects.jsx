@@ -1,4 +1,5 @@
 import React from 'react'
+import FetchData from '../features/FetchData'
 
 
 const Projects = () => {
@@ -6,6 +7,7 @@ const Projects = () => {
     <section>
      
       <div>Projects</div>
+      <FetchData></FetchData>
     </section>
   )
 }
