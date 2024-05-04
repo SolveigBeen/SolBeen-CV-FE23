@@ -5,7 +5,10 @@ import ThemeToggler from './ThemeToggler'
 const Nav = () => {
   return (
     <header className="header">
-      <h1 className="title">Solveig Béen</h1>
+      <div className='themeToggler'>
+        <ThemeToggler></ThemeToggler>
+       </div>
+      <h1 className="title">Solveig Béen - Interaction Designer</h1>
 
       <nav className="nav"> 
         <ul className="navlist">
@@ -20,7 +23,7 @@ const Nav = () => {
             <li className="navitem">Contact</li>
           </Link>
         </ul>
-        <ThemeToggler></ThemeToggler>
+       
       </nav>
     </header>
   )

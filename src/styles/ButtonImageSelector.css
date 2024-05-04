@@ -1,0 +1,21 @@
+.buttonGen{
+  width: 50px;
+  height:30px;
+  border-radius: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.buttonFwd {
+
+  background-image: url('/public/assets/ArrowFwd.png');
+
+}
+
+.buttonRwd {
+
+  background-image: url('/public/assets/ArrowRwd.png');
+ 
+}
