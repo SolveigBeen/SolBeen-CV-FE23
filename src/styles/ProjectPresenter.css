@@ -12,7 +12,7 @@
    justify-content: space-between;
  }
  
- .projectPresenter__gallery { 
+ .projectPresenter__gallery-img { 
    overflow: auto;
    height:500px;
   }
@@ -33,3 +33,4 @@
    display: block; 
    margin: 0 auto;
  }
+

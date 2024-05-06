@@ -1,20 +1,36 @@
 .contact{
-  background-color: beige;
+  
   width: 80%;
   margin:auto;
+  background-color:var(--contactForm-bg-color) ;
+  color:var(--contactForm-text-color);
+}
+
+.main-contact {
+  padding:4em;
 }
 
 .main-contact__form {
   display:flex;
   flex-direction: row;
-  gap:2em;
-  margin:2em;
+  gap:3em;
+  margin-top:2em;
+
 }
+
 
 .main-contact__form-name {
   display:flex;
   flex-direction: column;
   flex:1;
+ 
+}
+
+.main-contact__form-input{
+  border-radius: 0.2em;
+  padding:0.3em;
+  margin-bottom: 1em;
+  font-size: 1.2rem;
 }
 
 .main-contact__form-message-container {
@@ -22,11 +38,45 @@
   display:flex;
   flex-direction: column;
   justify-content: space-between;
+  
+  
 }
-
-
-.main-contact__form-message {
+.main-contact__form-mess {
   display:flex;
   flex-direction: column;
 
 }
+.main-contact__form-message{
+  border-radius: 0.2em;
+  padding:0.3em;
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  min-height: 7rem;
+
+}
+
+.main-contact__submit-btn{
+  width:20rem;
+  background-color: var(--contact-submit-btn);
+ 
+  padding:0.5em 2em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+}
+
+.modal{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50vw;
+  margin:auto;
+  background-color: azure;
+  height: 50vh;
+}
+

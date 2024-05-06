@@ -1,3 +1,5 @@
+//Component to change color theme with a button in the Header/nav.
+
 import {useDispatch} from 'react-redux'
 import { toggleTheme } from '../store';
 

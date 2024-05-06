@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 } 
 
 section{
@@ -26,16 +27,45 @@ section{
   justify-content: space-between;
 }
 
-
-
 .theme-light{
-  background-color:aliceblue;
+  
   color:black;
+  --footer-bg-color: #f0e8de;
+  --header-bg-color:#f0e8de;
+  --header-text-color: #0a0425;
+  --nav-text-color:#0a0425;
+  --footer-text-color: #0a0425;
+  --body-bg-color:#f0e8de;
+  --contactForm-bg-color:#ad9b86;
+  --contactForm-text-color:#0a0425;
+  --Aside-bg-color:#ad9b86;
+  --Aside-text-color:#0a0425;
+  --main-bg-color:#b6ab9e;
+  --main-text-color:#0a0425;
+  --contact-submit-btn: #082851;
 }
 .theme-dark{
-  background-color:black;
-  color:aliceblue
+
+  color:aliceblue;
+  --footer-bg-color: #031D40;
+  --header-bg-color:#031D40;
+  --header-text-color: #dadada;
+  --nav-text-color:#dadada;
+  --footer-text-color: #dadada;
+  --body-bg-color:#000000;
+  --contactForm-bg-color:#0b3974;
+  --contactForm-text-color:#dadada5;
+  --Aside-bg-color:#0b3974;
+  --Aside-text-color:#dadada5;
+  --main-bg-color:#082851;
+  --main-text-color:#dadada5;
+
+  --contact-submit-btn:#b6ab9e; 
 }
+
+
+
+
 
 
 

@@ -9,7 +9,7 @@ const Home = () => {
       
         <aside className="Home__aside">
           <img className="Home__portrait" src="../assets/Solveig-Fut.jpg"></img>
-          <p className='Home__presentation'>I am an  Interaction Designer with 30 years of work experience. Now, I am further educating myself in FrontEnd development to be even better at contributing to user-friendly websites. Looking forward to contribute with my skills.</p>
+          <p className='Home__presentation'>As an Interaction Designer with over 30 years of professional experience, I am expanding my expertise in FrontEnd development to enhance my ability to create user-friendly websites. I am enthusiastic about leveraging my extensive background and apply my skills to create engaging and intuitive digital experiences."</p>
         </aside>
         <main className="Home__main">
           <CompetencePresenter></CompetencePresenter>

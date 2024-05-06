@@ -10,10 +10,11 @@ import ThemeProvider from "./features/ThemeProvider";
 function App() {
   return (
     <>
+    <ThemeProvider>
       <BrowserRouter>
-        <ThemeProvider>
+        
           <Nav></Nav>
-        </ThemeProvider>
+        
 
         <Routes>
           //Route-komponenten bestämmer vilken Route som ska visas baserat på
@@ -25,10 +26,11 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-        <ThemeProvider>
+        
           <Footer></Footer>
-        </ThemeProvider>
+        
       </BrowserRouter>
+      </ThemeProvider>
     </>
   );
 }
