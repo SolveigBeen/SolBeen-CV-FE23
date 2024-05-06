@@ -1,0 +1,84 @@
+
+.Home-2col {
+  display:flex;
+  flex-direction: row;
+  margin: 0 10em;
+}
+
+.Home__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 2em 4em;
+ width:50%;
+ background-color: rgb(161, 140, 109);
+}
+
+.Home__portrait {
+  border-radius: 100px;
+  width: 200px;
+  margin-bottom:3em;
+}
+
+.Home__presentation{
+  font-size: 24px;
+  padding: 0 2em;
+  color:white;
+}
+
+  .Home__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 2em;
+   width:50%;
+   background-color: blanchedalmond;
+  }
+
+  .Home__btn-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:3em;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+
+
+  .selected-button {
+    font-size: larger;
+    background-color: #007bff;
+    color: #fff;
+    padding:0.5em 1em;
+    border-radius: 1em;
+    border: none;
+  }
+  
+  .unselected-button {
+    font-size: larger;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border: 2px solid black;
+  }
+
+
+/*  Styles for CV items */
+
+  .CvItem {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    padding: 0 3em 1em 3em;
+    margin-bottom: 2em;
+  }
+
+  .CvItem__container {
+    width:100%; 
+  }
+
+  .CvItem__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1em 0;
+  }

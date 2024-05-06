@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ButtonImageSelector.css'
+import './ButtonImageSelector.css'
 
 const ButtonImageSelector = ({ onClick, className }) => {
   return (

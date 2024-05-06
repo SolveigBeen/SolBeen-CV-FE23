@@ -1,9 +1,0 @@
-.aside-home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- padding-top: 2em;
-}
-
-.portrait {border-radius: 100px;
-  width: 200px;}

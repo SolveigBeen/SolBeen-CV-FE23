@@ -1,16 +1,17 @@
-import '../styles/Nav.css'
-import {Link} from 'react-router-dom'
-import ThemeToggler from './ThemeToggler'
+import ThemeToggler from "../ThemeToggler";
+import "./Nav.css";
+import { Link } from "react-router-dom";
+
 
 const Nav = () => {
   return (
     <header className="header">
-      <div className='themeToggler'>
+      <div className="themeToggler">
         <ThemeToggler></ThemeToggler>
-       </div>
+      </div>
       <h1 className="title">Solveig Béen - Interaction Designer</h1>
 
-      <nav className="nav"> 
+      <nav className="nav">
         <ul className="navlist">
           {/**  Länkar till fördefinierade sidor med Routes.*/}
           <Link to="/">
@@ -23,10 +24,9 @@ const Nav = () => {
             <li className="navitem">Contact</li>
           </Link>
         </ul>
-       
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

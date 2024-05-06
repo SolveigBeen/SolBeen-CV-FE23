@@ -1,21 +1,19 @@
+/* Forward and Rearward buttons for image carousel */
+
 .buttonGen{
-  width: 50px;
-  height:30px;
+  width: 6em;
+  height:4em;
   border-radius: 20px;
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
-
+  margin:0 3em;
 }
 
 .buttonFwd {
-
   background-image: url('/public/assets/ArrowFwd.png');
-
 }
 
 .buttonRwd {
-
   background-image: url('/public/assets/ArrowRwd.png');
- 
 }

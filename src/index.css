@@ -1,10 +1,19 @@
+
+
 h1{
   font-size: 3em;
 }
 
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
+
 a {
   font-weight: 500;
-  color: #ffe364;
+ 
   text-decoration: inherit;
 }
 a:hover {
@@ -14,20 +23,23 @@ a:hover {
 .section-2Col {
   display:flex;
   flex: row;
+
 }
 
 .aside-30{
   width: 30%;
   background-color: darkgray;
+ padding:2em;
 }
 
 .main-70 {
   width: 70%;
-  background-color: #ffe364;
+  background-color: #b2a56b;
  padding:20px;
  display: flex;
  flex-direction: column;
  align-items: center;
+ 
 
 }
 
