@@ -5,19 +5,25 @@ import ButtonImageSelector from "./ImageSelectorButton/ButtonImageSelector";
 const ProjectPresenter = () => {
   const images = [
     {
-      src: "./YumYumOrdering-all.png",
-      description: "Description for Image 1",
-      title: "Ordering app in React",
+      src: "./SolarSystem.png",
+      description: "A webplace about our solar system, built with HTML, CSS and vanilla JS.Examination task in JavaScript course.",
+      title: "Solaris ",
     },
     {
       src: "./Sladalen-1.png",
-      description: "Description for Image 2",
-      title: "Sladalen-ancestors web-page",
+      description: "A website including in total 7 pages. Different CSS tecniques are applied: CSS Transitions, CSS Rounded Corners, CSS Animations,CSS Shadow Effects, CSS Opacity / Transparency.   Examination task in 'CSS-based Webdesign' As an own optional subject I made a webplace for my mothers ancestors." ,
+      title: "Sladalen",
     },
     {
-      src: "./Sladalen-2.png",
-      description: "Description for Image 3",
-      title: "sfhh",
+      src: "./YumYumOrdering-all.png",
+      description: "Mobile app for an restaurant ordering made with React. A bootcamp excersize in React course.",
+      title: "YumYumOrdering",
+    },
+   
+    {
+      src: "./Sladalen-4.png",
+      description: "A website including in total 7 pages. Different CSS tecniques are applied: CSS Transitions, CSS Rounded Corners, CSS Animations,CSS Shadow Effects, CSS Opacity / Transparency.   Examination task in 'CSS-based Webdesign' As an own optional subject I made a webplace for my mothers ancestors." ,
+      title: "Sladalen",
     },
   ];
 
@@ -55,11 +61,13 @@ const ProjectPresenter = () => {
         <p className="projectPresenter__gallery-description">
           {images[currentImageIndex].description}
         </p>
+        <div className='projectPresenter__gallery-img'>
         <img
           className="projectPresenter__gallery-images"
           src={images[currentImageIndex].src}
           alt={`Image ${currentImageIndex}`}
         />
+        </div>
       </div>
     </section>
   );

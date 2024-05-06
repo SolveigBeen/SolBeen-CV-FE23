@@ -1,5 +1,6 @@
 .header {
-  
+  background-color:var(--header-bg-color) ;
+  color:var(--header-text-color);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -15,14 +16,7 @@
   justify-content: flex-end;
 
 }
-.theme-light{
-  background-color:aliceblue;
-  color:black;
-}
-.theme-dark{
-  background-color:black;
-  color:aliceblue
-}
+
 
 .title {
    font-weight: bold;
@@ -37,6 +31,14 @@
   list-style: none;
   color: white;
   gap: 3em;
-  font-size: 18px;
+  font-size: 2rem;
   padding:1em;
+  
 }
+.navitem{
+  color:(--nav-text-color);
+}
+
+
+
+

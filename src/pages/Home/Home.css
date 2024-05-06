@@ -3,6 +3,7 @@
   display:flex;
   flex-direction: row;
   margin: 0 10em;
+  background-color: #007bff;
 }
 
 .Home__aside {
@@ -11,7 +12,8 @@
   align-items: center;
  padding: 2em 4em;
  width:50%;
- background-color: rgb(161, 140, 109);
+ background-color: var(--Aside-bg-color);
+ color:var(--Aside-text-color);
 }
 
 .Home__portrait {
@@ -32,7 +34,8 @@
     align-items: center;
    padding-top: 2em;
    width:50%;
-   background-color: blanchedalmond;
+   background-color: var(--main-bg-color);
+ color:var(--main-text-color);
   }
 
   .Home__btn-container {
