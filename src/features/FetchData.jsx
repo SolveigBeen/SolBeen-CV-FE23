@@ -1,7 +1,7 @@
 //To fetch selected Git Repo to list at the Project page.
 
 import {useState, useEffect} from 'react'
-import '../styles/ProjectPresenter.css'
+import '../styles/projectPresenter.css'
 import '../index.css'
 
 const FetchData = () => {
