@@ -1,6 +1,8 @@
+//NavLink is used to be able to style the links in the navigation menu. To improve the usabiltiy impression to highlight the active page.
+
 import ThemeToggler from "../ThemeToggler";
 import "./Nav.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ThemeProvider from "../../features/ThemeProvider";
 
 const Nav = () => {
@@ -9,28 +11,28 @@ const Nav = () => {
       <div className="themeToggler">
         <ThemeToggler></ThemeToggler>
       </div>
-      <h1 className="title">Solveig Béen - Interaction Designer</h1>
+      <h1 className="title">Solveig Béen</h1> <h2>Interaction Designer</h2>
 
       <nav className="nav">
       
         <ul className="navlist">
       
           {/**  Länkar till fördefinierade sidor med Routes.*/}
-          <Link to="/">
+          <NavLink exact to="/">
           <ThemeProvider>
-            <li className="navitem">Home</li>
+            <li className="navitem" activeClassName="active">Home</li>
           </ThemeProvider>
-          </Link>
-          <Link to="/Projects">
+          </NavLink>
+          <NavLink exact to="/Projects">
           <ThemeProvider>
-            <li className="navitem">Projects</li>
+            <li className="navitem" activeClassName="active">Projects</li>
             </ThemeProvider>
-          </Link>
-          <Link to="/Contact">
+          </NavLink>
+          <NavLink exact to="/Contact">
           <ThemeProvider>
-            <li className="navitem">Contact</li>
+            <li className="navitem" activeClassName="active">Contact</li>
           </ThemeProvider>
-          </Link>
+          </NavLink>
          
         </ul>
      

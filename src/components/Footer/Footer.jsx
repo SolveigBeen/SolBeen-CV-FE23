@@ -5,7 +5,7 @@ import '../../App.css'
 const Footer = () => {
   return (
    <section className="footer">
-    <h2>&copy; Solveig Béen 2024</h2>
+    <h3>&copy; Solveig Béen 2024</h3>
    </section>
   )
 }

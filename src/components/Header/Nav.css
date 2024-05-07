@@ -29,14 +29,21 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  color: white;
-  gap: 3em;
-  font-size: 2rem;
+  gap: 5em;
+  font-size: 1.2rem;
   padding:1em;
   
 }
+
+.active {
+  color: red; /* Change the color of the active link */
+  font-weight: bold; /* Make the active link bold */
+}
+
 .navitem{
   color:(--nav-text-color);
+  
+  
 }
 
 
