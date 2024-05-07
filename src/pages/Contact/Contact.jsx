@@ -7,6 +7,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     message: ''
   });
 
@@ -55,55 +56,71 @@ const Contact = () => {
 
   return (
     <section className='contact'>
-     <main className='main-contact'>
+    
       <h2>Wellcome to contact me</h2>
       <h3> Send me your name and write some lines.</h3>
 
-      <form className='main-contact__form' onSubmit={handleSubmit}>
-        <div className='main-contact__form-name'>
-          <label>Name:
+      <form className='contact__form' onSubmit={handleSubmit}>
+        <div className='contact__form-inp'>
+          <div className='contact__form-name'>
+            <label>Name:
+              </label>
+            <input
+              type="text"
+              name="name"
+              className='contact__form-input'
+                value={formData.name}
+              onChange={handleChange}
+            />
+            <label>Email:
             </label>
-          <input
-            type="text"
-            name="name"
-            className='main-contact__form-input'
-              value={formData.name}
-            onChange={handleChange}
-          />
-          <label>Email:
-          </label>
-          <input
-            type="email"
-            name="email"
-            className='main-contact__form-input'
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </div>
-
-        <div className='main-contact__form-message-container'>
-          <div className='main-contact__form-mess'>
-            <label>Message:
+            <input
+              type="email"
+              name="email"
+              className='contact__form-input'
+              value={formData.email}
+              onChange={handleChange}
+            />
+            <label>Email:
             </label>
-            <textarea
-              name="message"
-              className='main-contact__form-message'
-              value={formData.message}
+            <input
+              type="phone"
+              name="phone"
+              className='contact__form-input'
+              value={formData.phone}
               onChange={handleChange}
             />
           </div>
-          <ThemeProvider>
-          <button className='main-contact__submit-btn' type="submit">Submit</button>
-          </ThemeProvider>
+
+          <div className='contact__form-message-container'>
+            <div className='contact__form-mess'>
+              <label>Message:
+              </label>
+              <textarea
+                name="message"
+                className='contact__form-message'
+                value={formData.message}
+                onChange={handleChange}
+              />
+            </div>
+          </div>
         </div>
+        <div className='contact__submit-container'>
+            <ThemeProvider>
+            <button className='contact__submit-btn' type="submit">Submit</button>
+            </ThemeProvider>
+        </div>
+          
+        
       </form>
 
-    </main>
+  
     {showModal && (
       <div className="modal"  ref={modalRef}>
         <div className="modal-content">
           <span className="close" onClick={() => setShowModal(false)}></span>
-          <p>Thankyou {formData.name}!Your form has been submitted successfully!</p>
+          <h3>Thank you {formData.name}!</h3>
+          <p>I will get back to you!</p>
         </div>
       </div>
     )}

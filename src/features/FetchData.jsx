@@ -22,7 +22,7 @@ const filteredData = data.filter((repo) => repo.description !== null);
 
   return (
     <section >
-      <h2> Mina projekt</h2>
+      <h2> My Projects on Github</h2>
       {filteredData.map((repo)=> (
         <article className='Project__item' key={repo.id}>
           <a href={repo.html_url}>

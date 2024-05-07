@@ -42,7 +42,10 @@ section{
   --Aside-text-color:#0a0425;
   --main-bg-color:#b6ab9e;
   --main-text-color:#0a0425;
-  --contact-submit-btn: #082851;
+  --general-btn-bg-color: #f0e8de;
+  --general-btn-text-color: #0a0425;
+  --active-btn-bg-color: #ffffff;
+  --active-btn-text-color: #0a0425;
 }
 .theme-dark{
 
@@ -60,7 +63,10 @@ section{
   --main-bg-color:#082851;
   --main-text-color:#dadada5;
 
-  --contact-submit-btn:#b6ab9e; 
+  --geneal-btn-bg-color: #082851;
+  --general-btn-text-color: #dadada5;
+  --active-btn-bg-color: #082851;
+  --active-btn-text-color: #dadada5;
 }
 
 
