@@ -1,4 +1,5 @@
 // Component for presenting Competences for the CV.  User can select to show either 'Job Experience', 'Education' or 'Other' as competences.
+//CvItem receives the prop input = 'data' from its parent 'CompetencePresenter'. The 'data' is then populated into styled CvItem.  
 
 import './CvItem.css'
 

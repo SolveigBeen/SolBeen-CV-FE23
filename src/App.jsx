@@ -10,18 +10,12 @@ import ThemeProvider from "./features/ThemeProvider";
 function App() {
   return (
     <>
-    
       <BrowserRouter>
       <ThemeProvider>
-          <Nav></Nav>
-        
-
+        <Nav></Nav>
+       
         <Routes>
-          //Route-komponenten bestämmer vilken Route som ska visas baserat på
-          vilken URL användaren befinner sig på. Används för att bygga
-          navigationsstrukturen för single-page application (SPA). Varje
-          Route-komponent inuti Routes definierar sökväg (path) och den
-          komponent (element) som ska renderas när den sökvägen besöks.
+          // The Route component determines which route to display based on the URL the user is on. It's used to build the navigation structure for a single-page application (SPA). Each Route component inside Routes defines a path and the component (element) to render when that path is visited.//
           <Route index path="/" element={<Home></Home>} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
@@ -30,7 +24,6 @@ function App() {
           <Footer></Footer>
           </ThemeProvider>
       </BrowserRouter>
-    
     </>
   );
 }

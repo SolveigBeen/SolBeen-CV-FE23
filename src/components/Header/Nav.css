@@ -10,21 +10,19 @@
 }
 
 .themeToggler{
-  
   position: absolute;
   top: 1rem;
   right: 3rem;
-  
 }
 
-.title {
+.header__title {
   margin-top: 2rem;
   font-size: 4em;
    font-family: Fredericka the Great;
    
 }
 
-.navlist {
+.header__navlist {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -36,24 +34,24 @@
   
 }
 
-.navitem {
+.header__navitem {
   color: var(--nav-text-color);
 }
 
 .active {
-  color: red; /* Change the color of the active link */
-  font-weight: bold; /* Make the active link bold */
-}
+   font-weight:800; /* Make the active link bold */
+   z-index: 999;
+   color:aquamarine
+ }
 
 a {
   font-weight: 500;
   font-size: 1.5em;
-
   text-decoration: inherit;
 }
 a:hover {
   font-weight: 700;
-  color: var(--project-link-hover);
+  color:brown;
 }
 
 
