@@ -1,0 +1,38 @@
+.projectPresenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+ .projectPresenter-button__container {
+ width: 100%;
+   margin:20px 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ 
+ .projectPresenter__gallery-img { 
+   overflow: auto;
+   height:500px;
+  }
+ 
+ .projectPresenter__gallery-title {
+   margin-bottom: 1em;
+ }
+ 
+ .projectPresenter__gallery-description{
+   margin-bottom: 2em;
+ }
+ 
+ .projectPresenter__gallery-images { 
+   max-width: 100%;
+   overflow: auto;
+   object-fit: contain;
+   height: auto; 
+   display: block; 
+   margin: 0 auto;
+ }
+
+
+

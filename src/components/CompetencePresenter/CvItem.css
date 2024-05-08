@@ -1,11 +1,12 @@
+
+.CvItem__container {
+  width:100%; 
+}
+
 .CvItem {
   border-bottom: 2px solid var(--primary-border-color);
   padding: 0 1em 1em 3em;
   margin-bottom: 2em;
-}
-
-.CvItem__container {
-  width:100%; 
 }
 
 .CvItem__header {

@@ -48,12 +48,12 @@ section{
 }
 .theme-dark{
 
-  --primary-text-color:#f6ebd2;
-  --primary-bg-color: #031D40;
-  --secondary-bg-color: #033940;
-  --third-bg-color:#1b0340;
+  --primary-text-color:#f7f0df;
+  --primary-bg-color: #012340;
+  --secondary-bg-color: #024873;
+  --third-bg-color:#0A6AA6;
 
-  --general-btn-bg-color: #08636f;
+  --general-btn-bg-color: #4AA2D9;
   --general-btn-text-color: #dadada5;
   --active-btn-bg-color: #082851;
   --active-btn-text-color: #dadada5;
@@ -61,7 +61,7 @@ section{
   --nav-text-color:#f3daa0;
   --nav-active-text-color:#fff;
 
-  --project-link-hover:#dbe2e2;
+  --project-link-hover:#f2f6f6;
 
   --primary-border-color:#f6ebd2;
 }

@@ -1,0 +1,22 @@
+.Project__item{
+  margin-top: 2em;
+  border-bottom: 3px solid var(--primary-border-color);
+  padding-bottom: 1em;
+}
+
+
+.Project__item a {
+ 
+  color:var(--primary-text-color);
+  text-decoration: inherit;
+}
+
+.Project__item a:hover {
+  font-weight: 700;
+  color: var(--project-link-hover);
+}
+
+.ProjectPresenter-text{
+  color:--primary-text-color;
+  font-weight: 500;
+}

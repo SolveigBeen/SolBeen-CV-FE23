@@ -1,6 +1,9 @@
+//The Nav Component includes the common Header for all pages.
+
 //NavLink is used to be able to style the links in the navigation menu. To improve the usabiltiy impression to highlight the active page.
 
-//ThemeToggler includes the button to toggle themes.
+//ThemeToggler includes a button to toggle the color themes.
+
 
 import ThemeToggler from "../ThemeToggler";
 import "./Nav.css";
@@ -13,30 +16,28 @@ const Nav = () => {
       <div className="themeToggler">
         <ThemeToggler></ThemeToggler>   
       </div>
-      <h1 className="title">Solveig Béen</h1> <h2>Interaction Designer</h2>
+      <div>
+      
+      </div>
+      <h1 className="header__title">Solveig Béen</h1> <h2>Interaction Designer</h2>
 
-      <nav className="nav">
-        <ul className="navlist">
+      <nav>
+        <ul className="header__navlist">
       
           {/**  Länkar till fördefinierade sidor med Routes.*/}
           <NavLink exact to="/">
-        
-            <li className="navitem" activeClassName="active">Home</li>
-          
+            <li className="header__navitem" activeclassname="active">Home</li>
           </NavLink>
+          
           <NavLink exact to="/Projects">
-          
-            <li className="navitem" activeClassName="active">Projects</li>
-            
+            <li className="header__navitem" activeclassname="active">Projects</li>
           </NavLink>
+
           <NavLink exact to="/Contact">
-         
-            <li className="navitem" activeClassName="active">Contact</li>
-          
+            <li className="header__navitem" activeclassname="active">Contact</li>
           </NavLink>
          
         </ul>
-     
       </nav>
     </header>
   );
