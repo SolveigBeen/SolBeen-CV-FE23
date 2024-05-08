@@ -16,8 +16,7 @@ body {
 
 a {
   font-weight: 500;
-  font-size: 1.5em;
-  text-decoration: inherit;
+    text-decoration: inherit;
 }
 a:hover {
   font-weight: 700; 
@@ -36,7 +35,7 @@ a:hover {
   --active-btn-text-color: #0a0425;
 
   --nav-text-color:#2c3550;
-  --nav-active-text-color:#030303;
+  --nav-active-text-color:#944141;
 
   --primary-border-color:#0b0c0f;
   --modal-bg-color:#9dbebc;

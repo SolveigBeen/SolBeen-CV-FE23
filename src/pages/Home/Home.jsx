@@ -8,11 +8,9 @@ const Home = () => {
       <aside className="Home__aside">
         <img className="Home__portrait" src="../assets/Solveig-Fut.jpg"></img>
         <p className="Home__presentation">
-          As an Interaction Designer with over 30 years of professional
-          experience, I am expanding my expertise in FrontEnd development to
-          enhance my ability to create user-friendly websites. I am enthusiastic
-          about leveraging my extensive background and apply my skills to create
-          engaging and intuitive digital experiences.
+          I am an Interaction Designer with over 30 years of professional
+          experience. To
+          enhance my ability to create user-friendly websites I am now expanding my expertise in FrontEnd development. Looking forward to apply my skills and extensive background to create engaging and intuitive digital experiences.
         </p>
       </aside>
       <main className="Home__main">

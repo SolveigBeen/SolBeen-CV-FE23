@@ -1,7 +1,7 @@
 .contact{
   width: 80%;
   margin:auto;
-  padding:2em 4em;
+  padding:2rem 4rem;
   text-align: center;
   background-color:var(--third-bg-color) ;
   color:var(--primary-text-color);
@@ -10,8 +10,8 @@
 .contact__form {
   display:flex;
   flex-direction: column;
-  gap:3em;
-  margin-top:2em;
+  gap:3rem;
+  margin-top:2rem;
   
 }
 
@@ -19,8 +19,8 @@
   text-align:left;
   display:flex;
   flex-direction: row;
-  gap:3em;
-  margin-top:2em;
+  gap:3rem;
+  margin-top:2rem;
  
 }
 
@@ -31,10 +31,11 @@
 }
 
 .contact__form-input{
-  border-radius: 0.2em;
-  padding:0.3em;
-  margin-bottom: 1em;
+  border-radius: 0.2rem;
+  padding:0.3rem;
+  margin-bottom: 1rem;
   font-size: 1.2rem;
+  border:2px solid var(--primary-border-color);
 }
 
 .contact__form-message-container {
@@ -50,11 +51,11 @@
 }
 
 .contact__form-message{
-  border-radius: 0.2em;
-  padding:0.3em;
-  
+  border-radius: 0.2rem;
+  padding:0.3rem;
   font-size: 1.2rem;
   min-height: 14rem;
+  border:2px solid var(--primary-border-color);
 }
 
 .contact__submit-container{

@@ -6,9 +6,9 @@ export const jobExp = [
     url:'https://www.youtube.com/watch?v=AhPzJx1Ps04.'
   },
   {
-    title: 'Volvo',
+    title: 'Volvo Cars',
     year: '1995-2008',
-    description: 'Engaged in Usability within the realm of new car product development, my responsibilities encompassed specifying ergonomic requirements, a process frequently preceded by clinical studies involving test subjects. I focused a lot of seating comfort, child seats and opening and closing forces of vehicle doors. I continued then with the driver’s User interfaces within the Human Machine Interface area.'
+    description: 'Engaged in Usability within the realm of new car product development: My responsibilities encompassed specifying ergonomic requirements, a process frequently preceded by clinical studies involving test subjects. I focused a lot of seating comfort, child seats and opening and closing forces of vehicle doors. I continued then with the driver’s User interfaces within the Human Machine Interface area.'
   },
   {
     title: 'Chalmers University of Technology             ',
