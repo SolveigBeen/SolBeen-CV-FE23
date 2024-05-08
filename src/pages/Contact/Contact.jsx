@@ -116,12 +116,15 @@ const Contact = () => {
 
   
     {showModal && (
+      <div className='modal-wrapper'>
       <div className="modal"  ref={modalRef}>
         <div className="modal-content">
           <span className="close" onClick={() => setShowModal(false)}></span>
           <h3>Thank you {formData.name}!</h3>
           <p>I will get back to you!</p>
         </div>
+      </div>
+      <div class="backdrop"></div>
       </div>
     )}
   </section>

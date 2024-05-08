@@ -1,13 +1,14 @@
 /* Forward and Rearward buttons for image carousel */
 
 .buttonGen{
-  width: 6em;
+  width: 8em;
   height:4em;
-  border-radius: 20px;
-  background-color: white;
+  border-radius: 1.5em;
+  border:none;
   background-repeat: no-repeat;
   background-position: center;
-  margin:0 3em;
+  background-color: var(--general-btn-bg-color);
+  margin:0 2em;
 }
 
 .buttonFwd {

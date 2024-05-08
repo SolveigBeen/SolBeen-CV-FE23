@@ -11,8 +11,8 @@
   align-items: center;
  padding: 2em 4em;
  width:30%;
- background-color: var(--Aside-bg-color);
- color:var(--Aside-text-color);
+ background-color: var(--secondary-bg-color);
+ color:var(--primary-text-color);
 }
 
 .Project__main {
@@ -21,16 +21,12 @@
   align-items: center;
  padding: 2em 6em;
  width:70%;
- background-color: var(--main-bg-color);
- color:var(--main-text-color);
+ background-color: var(--third-bg-color);
+ color:var(--primary-text-color);
 }
 
 
-.Project__item{
-  margin-top: 2em;
-  border-bottom: 3px solid black;
-  padding-bottom: 1em;
-}
+
 
 
  
