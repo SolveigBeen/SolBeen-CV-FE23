@@ -13,7 +13,8 @@ const CvItem = ({ data }) => {
             <h3>{entry.title }</h3>
             <h4 className='CvItem__header-right'>{entry.year}</h4>
           </div>
-          <p>{entry.description}</p>
+          <p>{entry.description}  <a href={entry.url} className='CvItem__link'>{entry.url}</a></p>
+        
         </div>
       ))}
     </section>

@@ -12,7 +12,7 @@ const Home = () => {
           experience, I am expanding my expertise in FrontEnd development to
           enhance my ability to create user-friendly websites. I am enthusiastic
           about leveraging my extensive background and apply my skills to create
-          engaging and intuitive digital experiences."
+          engaging and intuitive digital experiences.
         </p>
       </aside>
       <main className="Home__main">

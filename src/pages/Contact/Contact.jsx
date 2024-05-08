@@ -59,7 +59,7 @@ const Contact = () => {
     <section className='contact'>
     
       <h2>Wellcome to contact me</h2>
-      <h3> Send me your name and write some lines.</h3>
+      <h4> Send me your name and write some lines.</h4>
 
       <form className='contact__form' onSubmit={handleSubmit}>
         <div className='contact__form-inp'>

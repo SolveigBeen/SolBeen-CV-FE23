@@ -13,7 +13,7 @@ const ThemeToggler = () => {
     <div>
       <ButtonGeneral  className='buttonGen'
       onClick={() => dispatch(toggleTheme())}
-      title='Byt tema'></ButtonGeneral>
+      title='Change theme'></ButtonGeneral>
       
     </div>
   

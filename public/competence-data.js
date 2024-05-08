@@ -2,7 +2,8 @@ export const jobExp = [
   {
     title: 'Ericsson',
     year: '2008-2023',
-    description: ' Interaction Designer for GUI development of CoordCom, a critical system used by SOS for emergency alarm management and resource allocation https://www.youtube.com/watch?v=AhPzJx1Ps04.'
+    description: ' Interaction Designer for GUI development of CoordCom, a critical system used by SOS for emergency alarm management and resource allocation:',
+    url:'https://www.youtube.com/watch?v=AhPzJx1Ps04.'
   },
   {
     title: 'Volvo',
@@ -65,12 +66,14 @@ export const additional = [
   {
     title: 'Adobe Illustrator: Vector illustrator',
     year: '',
-    description: 'https://solveigbeen.myportfolio.com'
+    description: 'View my drawings:',
+    url:'https://solveigbeen.myportfolio.com'
   },
   {
     title: 'Knitting design patterns',
     year: '',
-    description: 'https://www.ravelry.com/stores/solveig-been-designs'
+    description: 'Explore my knitting design patterns on Ravelry',
+    url: 'https://www.ravelry.com/stores/solveig-been-designs'
   },
   
 ];
