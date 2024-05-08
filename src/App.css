@@ -14,6 +14,15 @@ body {
   min-height: 100vh; 
 } 
 
+a {
+  font-weight: 500;
+  font-size: 1.5em;
+  text-decoration: inherit;
+}
+a:hover {
+  font-weight: 700; 
+}
+
 .theme-light{
 
   --primary-text-color:#0b0c0f;
@@ -29,28 +38,34 @@ body {
   --nav-text-color:#2c3550;
   --nav-active-text-color:#030303;
 
-  --project-link-hover:#3b15e2;
-
   --primary-border-color:#0b0c0f;
+  --modal-bg-color:#9dbebc;
+  a{
+    color: #6a8a88;
+  }
 }
 .theme-dark{
 
   --primary-text-color:#f7f0df;
-  --primary-bg-color: #012340;
-  --secondary-bg-color: #024873;
-  --third-bg-color:#0A6AA6;
+  --primary-bg-color: #013140;
+  --secondary-bg-color: #054351;
+  --third-bg-color:#0b5669;
 
-  --general-btn-bg-color: #4AA2D9;
+  --general-btn-bg-color: #568591;
   --general-btn-text-color: #dadada5;
-  --active-btn-bg-color: #082851;
+  --active-btn-bg-color: #013140;
   --active-btn-text-color: #dadada5;
 
   --nav-text-color:#f3daa0;
   --nav-active-text-color:#fff;
 
-  --project-link-hover:#f2f6f6;
-
   --primary-border-color:#f6ebd2;
+
+  --modal-bg-color:#568591;
+
+  a{
+    color: #f3daa0;
+  }
 }
 
 

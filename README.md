@@ -17,14 +17,12 @@ Technical Description:
 The 'ButtonGeneral' is a component that is re-used for all buttons on the web-site. It is customized to fit different usage by its props (className, onClick, title).
 
 
-
 React Router is used to obtain navigation between the views Home/ Project /Contact. 
 'NavLink' is used on Nav.jsx to be able to style the links in the navigation menu. To improve the usabiltiy impression to highlight the active page.
 
 Redux is used for global statehandling. It is used to set different style themes that affects the whole web-site.  ThemeProvide.jsx together with ThemeToggler is ised for the Theme toggling.
 
-Interaction with Git-Api is used on the Project page, where the FetchData feature requests data from GitHub which are then populated on the Project page.  
-
+Interaction with Git-Api is used in the ProjectOnGitHub component, where data is fethed from the GitHub. The data  is then populated on the Project page.  
 
 
  React Hooks that are used:
@@ -35,3 +33,5 @@ Interaction with Git-Api is used on the Project page, where the FetchData featur
 -useEffect. Also used to add toggling of body background color when the Theme-toggler is done. 
 
 -useSelector. Used to access the Redux store to retreive the current theme mode. Applied in ThemeProvider.jsx.
+
+useRef. Used on Contact.jsx to create a reference to the modal element.  It is used to facilitate the functionality of closing the modal when clicking outside of it.

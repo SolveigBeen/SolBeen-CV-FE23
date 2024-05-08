@@ -5,17 +5,22 @@
 
 .CvItem {
   border-bottom: 2px solid var(--primary-border-color);
-  padding: 0 1em 1em 3em;
-  margin-bottom: 2em;
+  padding: 0 1rem 1rem 3rem;
+  margin-bottom: 2rem;
 }
 
 .CvItem__header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap:3em;
+  gap:3rem;
 }
 
 .CvItem__header-right {
   text-align: right;
+}
+
+.CvItem__link {
+  font-size: 1rem;
+  text-decoration: underline;
 }
