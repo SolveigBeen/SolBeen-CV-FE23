@@ -1,5 +1,5 @@
 .CvItem {
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid var(--primary-border-color);
   padding: 0 1em 1em 3em;
   margin-bottom: 2em;
 }
@@ -10,12 +10,9 @@
 
 .CvItem__header {
   display: flex;
-  
   flex-direction: row;
   justify-content: space-between;
   gap:3em;
- 
-  
 }
 
 .CvItem__header-right {

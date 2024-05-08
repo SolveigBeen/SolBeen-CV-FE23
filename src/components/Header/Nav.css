@@ -1,6 +1,6 @@
 .header {
-  background-color:var(--header-bg-color) ;
-  color:var(--header-text-color);
+  background-color:var(--primary-bg-color) ;
+  color:var(--primary-text-color);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -10,18 +10,19 @@
 }
 
 .themeToggler{
-  width:90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
+  
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  
 }
-
 
 .title {
-   font-weight: bold;
+  margin-top: 2rem;
+  font-size: 4em;
+   font-family: Fredericka the Great;
+   
 }
-
 
 .navlist {
   display: flex;
@@ -35,15 +36,24 @@
   
 }
 
+.navitem {
+  color: var(--nav-text-color);
+}
+
 .active {
   color: red; /* Change the color of the active link */
   font-weight: bold; /* Make the active link bold */
 }
 
-.navitem{
-  color:(--nav-text-color);
-  
-  
+a {
+  font-weight: 500;
+  font-size: 1.5em;
+
+  text-decoration: inherit;
+}
+a:hover {
+  font-weight: 700;
+  color: var(--project-link-hover);
 }
 
 

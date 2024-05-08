@@ -8,7 +8,7 @@ const ThemeToggler = () => {
   const dispatch = useDispatch();
   return (
     <div>
-      <button onClick={() => dispatch(toggleTheme())}>Byt tema</button>
+      <button className='unselected-button'onClick={() => dispatch(toggleTheme())}>Byt tema</button>
     </div>
   );
 }

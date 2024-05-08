@@ -28,45 +28,42 @@ section{
 }
 
 .theme-light{
+
+  --primary-text-color:#0b0c0f;
+  --primary-bg-color: #f4e9c0;
+  --secondary-bg-color:#e0f6f5;
+  --third-bg-color:#f8f1d7;
   
-  color:black;
-  --footer-bg-color: #f0e8de;
-  --header-bg-color:#f0e8de;
-  --header-text-color: #0a0425;
-  --nav-text-color:#0a0425;
-  --footer-text-color: #0a0425;
-  --body-bg-color:#f0e8de;
-  --contactForm-bg-color:#ad9b86;
-  --contactForm-text-color:#0a0425;
-  --Aside-bg-color:#ad9b86;
-  --Aside-text-color:#0a0425;
-  --main-bg-color:#b6ab9e;
-  --main-text-color:#0a0425;
-  --general-btn-bg-color: #f0e8de;
+  --general-btn-bg-color: #9dbebc;
   --general-btn-text-color: #0a0425;
   --active-btn-bg-color: #ffffff;
   --active-btn-text-color: #0a0425;
+
+  --nav-text-color:#2c3550;
+  --nav-active-text-color:#030303;
+
+  --project-link-hover:#3b15e2;
+
+  --primary-border-color:#0b0c0f;
 }
 .theme-dark{
 
-  color:aliceblue;
-  --footer-bg-color: #031D40;
-  --header-bg-color:#031D40;
-  --header-text-color: #dadada;
-  --nav-text-color:#dadada;
-  --footer-text-color: #dadada;
-  --body-bg-color:#000000;
-  --contactForm-bg-color:#0b3974;
-  --contactForm-text-color:#dadada5;
-  --Aside-bg-color:#0b3974;
-  --Aside-text-color:#dadada5;
-  --main-bg-color:#082851;
-  --main-text-color:#dadada5;
+  --primary-text-color:#f6ebd2;
+  --primary-bg-color: #031D40;
+  --secondary-bg-color: #033940;
+  --third-bg-color:#1b0340;
 
-  --geneal-btn-bg-color: #082851;
+  --general-btn-bg-color: #08636f;
   --general-btn-text-color: #dadada5;
   --active-btn-bg-color: #082851;
   --active-btn-text-color: #dadada5;
+
+  --nav-text-color:#f3daa0;
+  --nav-active-text-color:#fff;
+
+  --project-link-hover:#dbe2e2;
+
+  --primary-border-color:#f6ebd2;
 }
 
 

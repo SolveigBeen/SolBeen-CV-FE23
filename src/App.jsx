@@ -10,9 +10,9 @@ import ThemeProvider from "./features/ThemeProvider";
 function App() {
   return (
     <>
-    <ThemeProvider>
+    
       <BrowserRouter>
-        
+      <ThemeProvider>
           <Nav></Nav>
         
 
@@ -28,9 +28,9 @@ function App() {
         </Routes>
         
           <Footer></Footer>
-        
+          </ThemeProvider>
       </BrowserRouter>
-      </ThemeProvider>
+    
     </>
   );
 }

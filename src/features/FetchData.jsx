@@ -1,7 +1,7 @@
 //To fetch selected Git Repo to list at the Project page.
 
 import {useState, useEffect} from 'react'
-import '../styles/projectPresenter.css'
+import '../styles/ProjectPresenter.css'
 import '../index.css'
 
 const FetchData = () => {
@@ -27,7 +27,7 @@ const filteredData = data.filter((repo) => repo.description !== null);
         <article className='Project__item' key={repo.id}>
           <a href={repo.html_url}>
             <h3>{repo.name}</h3>
-            <p>{repo.description}</p>
+            <p className='ProjectPresenter-text'>{repo.description}</p>
           </a>
         </article>
       ) 

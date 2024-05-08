@@ -42,7 +42,7 @@ const CompetencePresenter = () => {
             <button onClick={handleAnnatClick}
             className={selectedComp === 'additional' ? 'selected-button' : 'unselected-button'}>Addtional</button>
           </div>
-          <div className='CvItem'>
+          <div >
             <CvItem data={selectedData}></CvItem>
             
           </div>
