@@ -1,3 +1,7 @@
+//This component presents Competences within 3 categories, Job experience, Education and Additional. All competence data are stored in an object that are stored in a separate file.
+//Competence category can be selected with buttons, and the actual category is handled by UseState.
+//The competence data is populated in a separate component, CvItem.
+
 import { useState } from "react";
 import CvItem from "./CvItem";
 import { jobExp, education, additional } from "../../../public/competence-data";

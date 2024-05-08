@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import './Contact.css'
-import ThemeProvider from '../../features/ThemeProvider';
 import ButtonGeneral from '../../components/ButtonGeneral/ButtonGeneral';
 
 //Saves the input data from the form.
@@ -12,6 +11,7 @@ const Contact = () => {
     message: ''
   });
 
+  //When form fields are filled in the data is stored in the Contact variable.
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevState => ({
@@ -27,10 +27,7 @@ const Contact = () => {
     e.preventDefault();
     console.log(formData);
     setShowModal(true);
-    
-  
   };
-
 
   //useRef hook to create a reference to the modal element. 
   const modalRef = useRef(null);

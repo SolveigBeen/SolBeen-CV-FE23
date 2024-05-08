@@ -1,3 +1,5 @@
+//This component adds a section that shows images of FrontEnd projects. The images are toggled with two buttons. UseState is used to keep track of which image that is present.
+
 import { useState } from "react";
 
 import './ProjectPresenterStyle.css'
