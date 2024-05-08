@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import './Contact.css'
 import ThemeProvider from '../../features/ThemeProvider';
+import ButtonGeneral from '../../components/ButtonGeneral/ButtonGeneral';
 
 //Saves the input data from the form.
 const Contact = () => {
@@ -106,9 +107,10 @@ const Contact = () => {
           </div>
         </div>
         <div className='contact__submit-container'>
-            <ThemeProvider>
-            <button className='contact__submit-btn' type="submit">Submit</button>
-            </ThemeProvider>
+            
+              <ButtonGeneral className='contact__submit-btn' type="submit" title='send'></ButtonGeneral>
+            
+           
         </div>
           
         

@@ -1,0 +1,45 @@
+.buttonGen{
+  font-size: large;
+  color: var(--active-btn-text-color);
+  background-color: var(--general-btn-bg-color);
+  width: 8em;
+  border-radius: 1.5em;
+  border:none;
+  padding: 0.5em 1em;
+}
+
+.buttonFwd {
+  background-image: url('/public/assets/ArrowFwd.png');
+  width: 5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1.5em 1em;
+}
+
+.buttonRwd {
+  background-image: url('/public/assets/ArrowRwd.png');
+  width: 5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1.5em 1em;
+}
+
+
+.selected-button {
+  font-size: large;
+  background-color: var(--active-btn-bg-color);
+  color: var(--active-btn-text-color);
+  padding: calc(0.5em - 5px) calc(1em - 5px); /* Adjust padding to include the border width */
+  border-radius: 1em;
+  border: 5px solid var(--general-btn-bg-color);
+}
+
+.unselected-button {
+  font-size: large;
+  background-color: var(--general-btn-bg-color);
+  color: var(--general-btn-text-color);
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  border: none;
+}
+

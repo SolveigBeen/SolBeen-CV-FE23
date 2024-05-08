@@ -13,17 +13,19 @@ Technical Description:
 - Installed React Router Dom for routing pages.
 - Installed Redux for easy state handling between pages and components.
 
-different React Hooks that are used
 
+The 'ButtonGeneral' is a component that is re-used for all buttons on the web-site. It is customized to fit different usage by its props (className, onClick, title).
 
 
 
 React Router is used to obtain navigation between the views Home/ Project /Contact. 
 'NavLink' is used on Nav.jsx to be able to style the links in the navigation menu. To improve the usabiltiy impression to highlight the active page.
 
-Redux is used to globally set different style themes that affects the whole web-site.  ThemeProvide.jsx together with ThemeToggler is ised for the Theme toggling.
+Redux is used for global statehandling. It is used to set different style themes that affects the whole web-site.  ThemeProvide.jsx together with ThemeToggler is ised for the Theme toggling.
 
 Interaction with Git-Api is used on the Project page, where the FetchData feature requests data from GitHub which are then populated on the Project page.  
+
+
 
  React Hooks that are used:
 

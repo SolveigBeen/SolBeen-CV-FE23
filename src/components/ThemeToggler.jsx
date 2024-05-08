@@ -2,6 +2,7 @@
 
 import {useDispatch} from 'react-redux'
 import { toggleTheme } from '../store';
+import ButtonGeneral from './ButtonGeneral/ButtonGeneral';
 
 
 const ThemeToggler = () => {
@@ -10,7 +11,10 @@ const ThemeToggler = () => {
   return (
     <>
     <div>
-      <button className='unselected-button'onClick={() => dispatch(toggleTheme())}>Byt tema</button>
+      <ButtonGeneral  className='buttonGen'
+      onClick={() => dispatch(toggleTheme())}
+      title='Byt tema'></ButtonGeneral>
+      
     </div>
   
     </>

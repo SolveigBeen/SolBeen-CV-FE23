@@ -8,20 +8,4 @@
 }
 
 
-.Home__selected-button {
-  font-size: larger;
-  background-color: var(--active-btn-bg-color);
-  color: var(--active-btn-text-color);
-  padding: calc(0.5em - 5px) calc(1em - 5px); /* Adjust padding to include the border width */
-  border-radius: 1em;
-  border: 5px solid var(--general-btn-bg-color);
-}
 
-.Home__unselected-button {
-  font-size: larger;
-  background-color: var(--general-btn-bg-color);
-  color: var(--general-btn-text-color);
-  padding: 0.5em 1em;
-  border-radius: 1em;
-  border: none;
-}

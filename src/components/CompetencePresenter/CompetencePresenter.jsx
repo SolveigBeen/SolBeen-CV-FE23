@@ -2,6 +2,7 @@ import { useState } from "react";
 import CvItem from "./CvItem";
 import { jobExp, education, additional } from "../../../public/competence-data";
 import "./CompetencePresenter.css";
+import ButtonGeneral from "../ButtonGeneral/ButtonGeneral";
 
 const CompetencePresenter = () => {
   const [selectedComp, setSelectedComp] = useState("jobExp");
@@ -32,31 +33,28 @@ const CompetencePresenter = () => {
   return (
     <div>
       <div className="Home__btn-container">
-        <button
-          onClick={handleJobExpClick}
+        <ButtonGeneral onClick={handleJobExpClick}
           className={
-            selectedComp === "jobExp" ? "Home__selected-button" : "Home__unselected-button"
-          }>
-          Job experience
-        </button>
-        <button
-          onClick={handleEducationClick}
+            selectedComp === "jobExp" ? "selected-button" : "unselected-button"
+          }  title='Job experience' >
+
+          </ButtonGeneral>
+
+       <ButtonGeneral onClick={handleEducationClick}
           className={
             selectedComp === "education"
-              ? "Home__selected-button"
-              : "Home__unselected-button"
-          }>
-          Education
-        </button>
-        <button
-          onClick={handleAnnatClick}
+              ? "selected-button"
+              : "unselected-button"
+          } title='Education'></ButtonGeneral>
+
+          <ButtonGeneral onClick={handleAnnatClick}
           className={
             selectedComp === "additional"
-              ? "Home__selected-button"
-              : "Home__unselected-button"
-          }>
-          Addtional
-        </button>
+              ? "selected-button"
+              : "unselected-button"
+          } title='Additional'></ButtonGeneral>
+      
+      
       </div>
       <div>
         <CvItem data={selectedData}></CvItem>

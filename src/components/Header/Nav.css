@@ -16,8 +16,9 @@
 }
 
 .header__title {
-  margin-top: 2rem;
-  font-size: 4em;
+  margin-top: 1rem;
+  font-size: 3em;
+  font-weight: 500;
    font-family: Fredericka the Great;
    
 }
@@ -29,8 +30,8 @@
   align-items: center;
   list-style: none;
   gap: 5em;
-  font-size: 1.2rem;
-  padding:1em;
+  font-size: 1rem;
+  padding:1em 0 0 0;
   
 }
 
@@ -40,8 +41,6 @@
 
 .active {
    font-weight:800; /* Make the active link bold */
-   z-index: 999;
-   color:aquamarine
  }
 
 a {

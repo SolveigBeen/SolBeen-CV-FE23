@@ -6,7 +6,6 @@
 
 
 .Project__item a {
- 
   color:var(--primary-text-color);
   text-decoration: inherit;
 }
@@ -14,9 +13,4 @@
 .Project__item a:hover {
   font-weight: 700;
   color: var(--project-link-hover);
-}
-
-.ProjectPresenter-text{
-  color:--primary-text-color;
-  font-weight: 500;
 }
