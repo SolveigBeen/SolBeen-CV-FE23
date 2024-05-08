@@ -5,8 +5,8 @@
  }
  
  .projectPresenter-button__container {
- width: 100%;
-   margin:20px 30px;
+   width: 100%;
+   margin:0.5em ;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -16,10 +16,6 @@
    overflow: auto;
    height:500px;
   }
- 
- .projectPresenter__gallery-title {
-   margin-bottom: 1em;
- }
  
  .projectPresenter__gallery-description{
    margin-bottom: 2em;

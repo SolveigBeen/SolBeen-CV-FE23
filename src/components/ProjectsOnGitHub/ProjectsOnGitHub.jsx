@@ -28,7 +28,7 @@ const filteredData = data.filter((repo) => repo.description !== null);
         <article className='Project__item' key={repo.id}>
           <a href={repo.html_url}>
             <h3>{repo.name}</h3>
-            <p className='ProjectPresenter-text'>{repo.description}</p>
+            <p>{repo.description}</p>
           </a>
         </article>
       ) 

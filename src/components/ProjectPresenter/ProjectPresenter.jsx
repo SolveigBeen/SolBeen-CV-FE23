@@ -1,6 +1,7 @@
 import { useState } from "react";
-import ButtonImageSelector from "./ImageSelectorButton/ButtonImageSelector";
+
 import './ProjectPresenterStyle.css'
+import ButtonGeneral from "../ButtonGeneral/ButtonGeneral";
 
 
 const ProjectPresenter = () => {
@@ -47,12 +48,10 @@ const ProjectPresenter = () => {
   return (
     <section className="projectPresenter">
       <div className="projectPresenter-button__container">
-        <ButtonImageSelector
-          onClick={prevImage}
-          className="buttonRwd"></ButtonImageSelector>
-        <ButtonImageSelector
-          onClick={nextImage}
-          className="buttonFwd"></ButtonImageSelector>
+        <ButtonGeneral onClick={prevImage}
+          className="buttonRwd"></ButtonGeneral>
+          <ButtonGeneral onClick={nextImage}
+          className="buttonFwd"></ButtonGeneral>
       </div>
 
       <div className="projectPresenter__gallery">

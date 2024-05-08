@@ -19,7 +19,7 @@ const Nav = () => {
       <div>
       
       </div>
-      <h1 className="header__title">Solveig Béen</h1> <h2>Interaction Designer</h2>
+      <h1 className="header__title">Solveig Béen</h1> <h3>Interaction Designer</h3>
 
       <nav>
         <ul className="header__navlist">

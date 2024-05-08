@@ -1,8 +1,3 @@
-#root {
-  max-width: 100vw;
-  min-height:100vw;
- }
-
 
 * {
   box-sizing: border-box;
@@ -16,16 +11,8 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  
+  min-height: 100vh; 
 } 
-
-section{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 .theme-light{
 

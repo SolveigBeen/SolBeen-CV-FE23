@@ -1,8 +1,7 @@
 .contact{
-  
   width: 80%;
   margin:auto;
-  padding:4em;
+  padding:2em 4em;
   text-align: center;
   background-color:var(--third-bg-color) ;
   color:var(--primary-text-color);
@@ -13,6 +12,7 @@
   flex-direction: column;
   gap:3em;
   margin-top:2em;
+  
 }
 
 .contact__form-inp {
@@ -21,6 +21,7 @@
   flex-direction: row;
   gap:3em;
   margin-top:2em;
+ 
 }
 
 .contact__form-name {
@@ -51,24 +52,13 @@
 .contact__form-message{
   border-radius: 0.2em;
   padding:0.3em;
-  margin-bottom: 1em;
+  
   font-size: 1.2rem;
   min-height: 14rem;
-
 }
 
 .contact__submit-container{
  align-self: flex-end; 
- margin-top:2em;
-}
-
-.contact__submit-btn{
-  width:20rem;
-  background-color: var(--general-btn-bg-color);
-  color:var(--general-btn-text-color);
-  padding:0.5em 2em;
-  font-size: 1.5em;
-  border-radius: 0.5em;
 }
 
 .modal{
@@ -82,7 +72,7 @@
   align-items: center;
   width:50vw;
   margin:auto;
-  background-color: azure;
+  background-color: var(--primary-bg-color);
   height: 50vh;
   color:black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
