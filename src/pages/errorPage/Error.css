@@ -1,0 +1,9 @@
+.error-color{
+  color:var(--primary-text-color);
+  text-align: center;
+  padding:10vh;
+}
+
+.error__container {
+  height:50vh;
+}

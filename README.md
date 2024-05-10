@@ -5,7 +5,7 @@ Web-site description:
 The start page/Home includes a short personal presentation. Competences are divided into Job, Education, and Additional areas. Separate buttons will show each of these competences separatly.
 The second page/Projects there are links to selected Frontend prjects published on Git-hub. On this page there are also some screenshot images from the projects, placed in a 'carousel' to easy toggle the images.
 The last page/Contact includes a form where a web-site visitor can add a message for contact. When submitting the form the visitor's name is fetched to the confirming modal.
-For all pages it sis possible to switch between a light and dark color theme.
+For all pages it is possible to switch between a light and dark color theme.
 
 Technical Description:
 
@@ -19,6 +19,7 @@ The 'ButtonGeneral' is a component that is re-used for all buttons on the web-si
 
 React Router is used to obtain navigation between the views Home/ Project /Contact. 
 'NavLink' is used on Nav.jsx to be able to style the links in the navigation menu. To improve the usabiltiy impression to highlight the active page.
+If the url is invalid, an error page is presented.
 
 Redux is used for global statehandling. It is used to set different style themes that affects the whole web-site.  ThemeProvide.jsx together with ThemeToggler is ised for the Theme toggling.
 
