@@ -1,4 +1,5 @@
-Digital CV for Solveig Béen.
+## Digital CV for Solveig Béen.
+#### This is an examination task in course Frontend frameworks with React. 35yhp at education for Frontend development.
 
 Web-site description:
 
